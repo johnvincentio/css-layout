@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../images/outerspace_landscape.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1000px;
+}
+
+main {
+    padding-top: 100px;
+}
+
+/* nav to stick to top of page */
+/* nav, left and right padding = 60px*/
+
+.container {
+    padding: 0 60px;
+}
+
+nav {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: lightgray;    /* get a darker gray */
+}
+
+nav .logo {
+    border-radius: 50%;
+    height: 80%;
+    margin: 5px 0;
+    border: 1px solid black;
+    vertical-align: middle;        /* does this do anything ? */
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+    margin-left: 50px;
+}
+nav li {
+    display: inline-block;
+}
+nav li::after {
+    content: '|';
+    margin-left: 3px;
+}
+
+a {
+    padding: 0 3px;
+}
+
+.box {
+    width: 600px;
+    height: 300px;
+    border: 10px dotted green;
+    margin: 150px auto 0 auto;
+    position: relative;
+}
+
+.pet {
+    width: 200px;    /* this also sets height: 200px; */
+}
+.cat {
+    left: -100px;
+    top: -100px;
+    position: absolute;
+}
+.dog {
+    position: absolute;
+    right: -100px;
+    bottom: -100px;
+}

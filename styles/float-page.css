@@ -1,0 +1,27 @@
+
+body {
+  background-color: black;
+  color: white;
+}
+
+main {
+  padding-left: 90px;
+  padding-right: 90px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+    width: 320px;
+}
+.image-1 {
+    float: left;
+    padding: 15px 15px 15px 0;
+}
+
+.image-2 {
+    float: right;
+    padding: 15px 0px 15px 15px;
+}
+
